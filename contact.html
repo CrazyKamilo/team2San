@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CDV miniprojekt1</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <section class="brand">
+          <a href="#">
+            <img src="https://www.unsplash.it/150/60?image=919" alt="LOGO" />
+          </a>
+        </section>
+        <nav>
+          <!-- szybkie stworzenie listy do menu
+            ul>li*4>a
+            -->
+          <ul>
+            <li>
+              <a href="./index.html">Strona Domowa</a>
+            </li>
+            <li>
+              <a href="#">Produkty</a>
+            </li>
+            <li>
+              <a href="#">Cennik</a>
+            </li>
+            <li>
+              <a href="#">Skontaktuj się z nami</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="slider">
+        <img src="https://unsplash.it/1000/300?image=913" alt="slider" />
+      </section>
+      <main>
+        <div class="wrapper">
+          <form action="" class="form">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" class="form__input" />
+            <label for="surname">Nazwisko:</label>
+            <input
+              type="text"
+              id="surname"
+              name="surname"
+              class="form__input" />
+            <label for="phoneNumber">Numer telefonu:</label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phoneNumber"
+              class="form__input" />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" class="form__input" />
+            <label for="textArea">Wpisz wiadomość</label>
+            <input
+              type="text"
+              id="textArea"
+              name="textArea"
+              class="form__input" />
+            <button type="submit" class="form__submit" />Wyślij</button>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <p>Copyright &copy; by Student of Frontend</p>
+      </footer>
+    </div>
+        <script src="index.js"></script>
+  </body>
+</html>
