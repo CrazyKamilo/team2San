@@ -1,6 +1,7 @@
 /* Reguły CSS */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -57,6 +58,7 @@ nav ul li {
   margin: 0 5px;
 }
 
+
 nav ul li a {
   color: black;
   padding: 10px 15px;
@@ -66,11 +68,14 @@ nav ul li a {
   transition: background-color 0.4s;
   transition: color 0.4s;
   border-radius: 10px;
+  transition: .3s;
 }
 
 nav ul li a:hover {
-  background-color: rgb(83, 156, 224);
-  color: rgb(255, 255, 255, 1);
+  background-color: rgb(184, 241, 184);
+    color: rgb(255, 255, 255,1);
+    transform: scale(1.1);
+    font-weight:500;
 }
 
 /* Slider */
@@ -114,14 +119,26 @@ aside {
 
 /* Links */
 
-.links ul {
-  list-style-type: square;
-  padding-left: 18px;
-  margin: 0;
+.links ul{
+    /* list-style-type: square; */
+    padding-left: 18px;
+    margin: 0;
+    list-style:none;
 }
 
-.links ul li {
-  margin-bottom: 10px;
+.links ul li{
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(133, 4, 232);
+    font-weight: bold;
+}
+.links ul li:hover {
+    transform: scale(1.1);
+    text-transform: uppercase;
 }
 
 /* Footer */
